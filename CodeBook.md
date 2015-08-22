@@ -10,21 +10,21 @@ Full Description at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 # Process
-Following process is performed by script run_analysis.R to clean up the data and create tidy data set:
-1. Read Test data for subject, activity and features. <br>
-2. Read Train data for subject, activity and features.
-3. Combine the above data for train and test by rows
-4. Read support data of features
-5. Merge data for Test and Train for subject, activity, and features
-6. Extract meand and standard deviation data from the merged data. This is a subset
-7. Assign descriptive names by using/reading activity label file
-8. Assign appropriate variables
-9. Create variable factor
-10. Aggregrate the data and assign it to tidy data
-11. Write the tidy data to output file using write.table
+<br>Following process is performed by script run_analysis.R to clean up the data and create tidy data set:
+<br>1. Read Test data for subject, activity and features.
+<br>2. Read Train data for subject, activity and features.
+<br>3. Combine the above data for train and test by rows
+<br>4. Read support data of features
+<br>5. Merge data for Test and Train for subject, activity, and features
+<br>6. Extract meand and standard deviation data from the merged data. This is a subset
+<br>7. Assign descriptive names by using/reading activity label file
+<br>8. Assign appropriate variables
+<br>9. Create variable factor
+<br>10. Aggregrate the data and assign it to tidy data
+<br>11. Write the tidy data to output file using write.table
 
 # Properties of Tidy data
-180 obs. of  68 variables. First column is Subject, Second is Acitivity and the Rest are meassurments.
+180 obs. of  68 variables. First column is Subject, Second is Acitivity and the Rest are meassurments.<br>
  [1] "subject"                                       
  [2] "activity"                                      
  [3] "TimeBodyAccelerometer-mean()-X"                
