@@ -11,7 +11,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 # Process
 Following process is performed by script run_analysis.R to clean up the data and create tidy data set:
-1. Read Test data for subject, activity and features.
+1. Read Test data for subject, activity and features. <br>
 2. Read Train data for subject, activity and features.
 3. Combine the above data for train and test by rows
 4. Read support data of features
