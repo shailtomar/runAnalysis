@@ -23,7 +23,7 @@ Following process is performed by script run_analysis.R to clean up the data and
 10. Aggregrate the data and assign it to tidy data
 11. Write the tidy data to output file using write.table
 
-# Properties
+# Properties of Tidy data
 180 obs. of  68 variables:
  $ subject                                       : Factor w/ 30 levels "1","2","3","4",..: 1 1 1 1 1 1 2 2 2 2 ...
  $ activity                                      : Factor w/ 6 levels "LAYING","SITTING",..: 1 2 3 4 5 6 1 2 3 4 ...
