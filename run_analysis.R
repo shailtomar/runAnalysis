@@ -83,8 +83,8 @@ run_analysis.R <- function ()
     tidyData <- tidyData[order(tidyData$subject,tidyData$activity),]
     
     #str(tidyData)
+    #desc(tidyData)
     write.table(tidyData, file = "./Tidy.txt", row.names = FALSE)
- 
-    #knit2html("./codebook.Rmd");
+
 }
   
