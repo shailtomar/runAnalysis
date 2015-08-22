@@ -24,7 +24,7 @@ Following process is performed by script run_analysis.R to clean up the data and
 11. Write the tidy data to output file using write.table
 
 # Properties of Tidy data
-180 obs. of  68 variables:
+180 obs. of  68 variables. First column is Subject, Second is Acitivity and the Rest are meassurments.
  [1] "subject"                                       
  [2] "activity"                                      
  [3] "TimeBodyAccelerometer-mean()-X"                
@@ -88,7 +88,7 @@ Following process is performed by script run_analysis.R to clean up the data and
 [61] "FrequencyBodyAccelerometerMagnitude-mean()"    
 [62] "FrequencyBodyAccelerometerMagnitude-std()"     
 [63] "FrequencyBodyAccelerometerJerkMagnitude-mean()"
-[64] "FrequencyBodyAccelerometerJerkMagnitude-std()" 
+[64] "FrequencyBodyAccelerometerJerkMagnitude-std()"
 [65] "FrequencyBodyGyroscopeMagnitude-mean()"        
 [66] "FrequencyBodyGyroscopeMagnitude-std()"         
 [67] "FrequencyBodyGyroscopeJerkMagnitude-mean()"    
